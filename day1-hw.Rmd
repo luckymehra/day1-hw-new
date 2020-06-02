@@ -1,0 +1,63 @@
+---
+title: "Day 1 Homework"
+output: html_document
+---
+
+# Before you start working on this homework, complete the primer **The Basics**
+
+In the left sidebar, click Primers (you can hold Ctrl or Cmd when you click Primers to open it in a new window). Please complete both `Visualization Basics` and `Programming Basics`.
+
+# Homework starts below
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 1
+
+In the code chunk below:
+
+- Create and object named `day` (don't put those ticks in the object naem), and put `1:31` in that object.
+
+- Use `str()` function on object `day` to learn about what type of object it is.
+
+- Use the functions `class()` and `typeof()` on your the object `day`
+
+```{r}
+
+```
+
+## Question 2
+
+- Calculate length of vector `day` and assign it to object `len`
+
+- create a new object called `month` that contains the word "July" repeated `len` times. You can use the function `rep()` to create the object `month`
+
+- Also, create an object `year` that contains `2020` repeated `len` times.
+
+```{r}
+
+```
+
+## Question 3
+
+Now create a dataframe object called `next_month` that will have three columns: year, month, and day. The columns year, month, and day will contain values from the object created in previous questions, respectively. You can use the function `data.frame()` to creat the dataframe. Feel free to look up online on how to use the `data.frame()` function.
+
+```{r}
+
+```
+
+## Question 4
+
+- Navigate to `data-formatting` folder, and open `data-formatting.Rmd` and read it.
+
+- Once you finish reading, click `Knit` and see what happens.
+
+
+
+
+
+
+
+
+
